@@ -1,8 +1,24 @@
 aid: treex-robotics
-name: Treex Robotics
-description: Treex Robotics is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+name: TreeX Robotics
+description: TreeX Robotics is an Israeli physical-AI company founded in 2024 that
+  is bringing autonomous robotics to outdoor field operations at scale. TreeX replaces
+  human field crews with fleets of physical AI-powered autonomous workers that perform
+  high-skill field operations as an on-demand labor service, regardless of terrain
+  or ground conditions. The company is backed by Lightspeed Venture Partners (seed,
+  2024) and operates in Israel, the United States, and Italy. TreeX publishes no
+  public developer portal, API documentation, or SDKs at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://treex.ai/wp-content/uploads/2026/06/cropped-favicon_white-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/treex-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Physical AI
+- Autonomous Systems
+- Field Operations
+- Agriculture Technology
 apis: []
+common:
+- type: DomainSecurity
+  url: security/treex-robotics-domain-security.yml
+- type: Website
+  url: https://treex.ai
+- type: Contact
+  url: https://treex.ai/contact-us/
+- type: Careers
+  url: https://treex.ai/careers/
+- type: TermsOfService
+  url: https://treex.ai/terms-of-use/
+- type: PrivacyPolicy
+  url: https://treex.ai/privacy-policy/
+- type: LLMsTxt
+  url: llms/treex-robotics-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
