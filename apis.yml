@@ -7,6 +7,17 @@ description: TreeX Robotics is an Israeli physical-AI company founded in 2024 th
   or ground conditions. The company is backed by Lightspeed Venture Partners (seed,
   2024) and operates in Israel, the United States, and Italy. TreeX publishes no
   public developer portal, API documentation, or SDKs at this time.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
